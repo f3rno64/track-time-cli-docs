@@ -1,0 +1,8 @@
+{
+  "label": "Commands",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation and examples for all commands."
+  }
+}

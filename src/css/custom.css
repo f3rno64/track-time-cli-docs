@@ -43,14 +43,69 @@ h1 {
 }
 
 .markdown p img {
-  border: 4px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 6px 13px rgb(0 0 0 / 9%);
-  max-width: 65%;
-  margin: 0 auto;
+  max-width: 75%;
+  margin: 16px auto 0 auto;
   display: block;
+  margin-top: 16px !important;
+}
+
+.markdown p {
+  font-size: 18px;
+}
+
+.markdown hr {
+  border-top: 1px solid #999;
+  margin: 0 auto;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 10px;
+  font-weight: 400;
 }
 
 .markdown p em img {
   border: none;
+}
+
+.navbar__items--right .navbar__link {
+  font-weight: bold;
+}
+
+.navbar__link,
+.footer__link-item {
+  display: flex;
+  align-items: center;
+}
+
+.main-wrapper {
+  justify-content: center;
 }

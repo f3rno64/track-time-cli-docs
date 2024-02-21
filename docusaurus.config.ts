@@ -2,6 +2,8 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 import { themes as prismThemes } from 'prism-react-renderer'
 
+import pluginRemarkCodeTitle from 'remark-code-title'
+
 const config: Config = {
   title: 'track-time-cli',
   tagline: 'A Powerful CLI Time Tracking Utility',
@@ -44,6 +46,8 @@ const config: Config = {
           // Remove this to remove the 'edit this page' links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
+          remarkPlugins: [pluginRemarkCodeTitle]
         },
         blog: {
           showReadingTime: true,
@@ -63,21 +67,27 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'track-time-cli',
-      logo: {
-        alt: 'track-time-cli Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Track Time CLI Docs',
       items: [
-        { to: '/docs/intro', label: 'Get Started', position: 'left' },
-        { to: '/docs/category/basic-concepts', label: 'Basic Concepts', position: 'left' },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/docs/install', label: 'Install', position: 'left' },
+        { to: '/docs/get-started', label: 'Get Started', position: 'left' },
+        {
+          to: '/docs/category/basic-concepts',
+          label: 'Basic Concepts',
+          position: 'left'
+        },
+        { to: '/docs/category/commands', label: 'Commands', position: 'left' },
+        {
+          href: 'https://www.npmjs.com/package/track-time-cli',
+          label: 'NPM',
+          position: 'right'
+        },
         {
           href: 'https://github.com/f3rno64/track-time-cli',
           label: 'GitHub',
-          position: 'right',
-        },
-      ],
+          position: 'right'
+        }
+      ]
     },
     footer: {
       style: 'dark',
@@ -85,15 +95,11 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Get Started',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Basic Concepts',
-              to: '/docs/category/basic-concepts',
-            },
-          ],
+            { to: '/docs/install', label: 'Install' },
+            { to: '/docs/get-started', label: 'Get Started' },
+            { to: '/docs/category/basic-concepts', label: 'Basic Concepts' },
+            { to: '/docs/commands', label: 'Commands' }
+          ]
         },
         {
           title: 'More',
@@ -106,16 +112,19 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/f3rno64/track-time-cli',
             },
-          ],
-        },
-      ],
-
-      copyright: `Copyright © ${new Date().getFullYear()} Cris Mihalache. Built with Docusaurus.`,
+            {
+              label: 'NPM',
+              href: 'https://www.npmjs.com/package/track-time-cli',
+            }
+          ]
+        }
+      ]
     },
+
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
+      darkTheme: prismThemes.synthwave84,
+    }
   } satisfies Preset.ThemeConfig
 }
 
