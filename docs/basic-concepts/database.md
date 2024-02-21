@@ -16,11 +16,13 @@ over time.
 Since it is a plain JSON file, it can be inspected with programs like
 [**jq**][jq-url], or edited with any text editor.
 
----
+<br />
 
 Not all commands will modify the database; commands like **`tt list`**,
 **`tt today`** and **`tt week`** will only read from it, whereas other commands
 like **`tt in`** and **`tt out`** will modify it upon command execution.
+
+<br />
 
 :::tip
 To pretty-print its contents, you may run
@@ -28,6 +30,8 @@ To pretty-print its contents, you may run
 :::
 
 > #### NOTE: _The database file is minified by default._
+
+<br />
 
 ### Schema
 
@@ -45,7 +49,11 @@ export interface ITimeTrackerDB<T> {
 
 ### Initialization
 
-> A sheet named **main** is present by default.
+:::info
+A sheet named **main** is present by default in new databases.
+:::
+
+<br />
 
 If no database exists, upon the first invocation of **`track-time-cli`**,
 _regardless of which command is used_, a new empty database will be created

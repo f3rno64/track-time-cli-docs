@@ -70,7 +70,6 @@ const config: Config = {
       title: 'Track Time CLI Docs',
       items: [
         { to: '/docs/install', label: 'Install', position: 'left' },
-        { to: '/docs/get-started', label: 'Get Started', position: 'left' },
         {
           to: '/docs/category/basic-concepts',
           label: 'Basic Concepts',
@@ -96,7 +95,6 @@ const config: Config = {
           title: 'Docs',
           items: [
             { to: '/docs/install', label: 'Install' },
-            { to: '/docs/get-started', label: 'Get Started' },
             { to: '/docs/category/basic-concepts', label: 'Basic Concepts' },
             { to: '/docs/category/commands', label: 'Commands' }
           ]

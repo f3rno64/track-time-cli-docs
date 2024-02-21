@@ -44,8 +44,8 @@ export default function Home(): JSX.Element {
             <img
               width="100%"
               className="mr-16"
-              alt="Output of list command"
-              src="/img/terminal_screenshots/tt_l_humanized.svg"
+              alt="Output of `tt l -h -c`"
+              src="/img/terminal_screenshots/tt_l_concise_humanized.svg"
             ></img>
           </div>
         </div>
