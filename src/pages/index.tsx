@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
 
             <div className="flex align-center justify-center">
               <Link
-                to="/docs/intro"
+                to="/docs/install"
                 className="py-4 px-8 bg-white shadow-md rounded-md text-center text-xl font-semibold text-black mr-8"
               >
                 Read the Docs
