@@ -98,7 +98,7 @@ const config: Config = {
             { to: '/docs/install', label: 'Install' },
             { to: '/docs/get-started', label: 'Get Started' },
             { to: '/docs/category/basic-concepts', label: 'Basic Concepts' },
-            { to: '/docs/commands', label: 'Commands' }
+            { to: '/docs/category/commands', label: 'Commands' }
           ]
         },
         {
