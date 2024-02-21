@@ -1,17 +1,8 @@
 ---
-id: data-types
-title: Data Types
+id: time-sheets
+title: Time Sheets
 sidebar_position: 2
 ---
-
-There are two primary types of data that **track-time-cli** deals with:
-**time sheets** and **time sheet entries**.
-
-While we are defining the data structures, it is worth noting that the database
-keeps track of the **active time sheet** via the **activeSheetName** field in
-the [**database schema**][db-schema-url].
-
-## Time Sheets
 
 **Time sheets** are primarily collections of **entries**; they have a **name**
 field, which is used to refer to them in commands, and a **activeEntryID**
