@@ -1,0 +1,8 @@
+{
+  "label": "Basic Concepts",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "To provide you with an overview of how this utility is meant to be used,\nwe will start by explaining where your data is stored, how you can back\nit up and access it manually, what the various internal data types are,\nand how you can interact with them."
+}
+}
