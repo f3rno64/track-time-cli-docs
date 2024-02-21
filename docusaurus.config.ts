@@ -3,8 +3,8 @@ import type * as Preset from '@docusaurus/preset-classic'
 import { themes as prismThemes } from 'prism-react-renderer'
 
 const config: Config = {
-  title: 'track-time-cli Docs',
-  tagline: 'A time tracking tool for the command line',
+  title: 'track-time-cli',
+  tagline: 'A Powerful CLI Time Tracking Utility',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -29,6 +29,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    'docusaurus-tailwindcss'
+  ],
 
   presets: [
     [
