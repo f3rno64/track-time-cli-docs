@@ -55,21 +55,6 @@ from a simple digit display to a human-readable word form.
 
 <details>
   <summary>
-    Render durations into a human-readable word form with **`--humanize`**.
-  </summary>
-  <div>
-
-:::tip
-<br />
-The **`-h`** (or **`--humanize`**) argument switches the rendering of durations
-from a simple digit display to a human-readable word form.
-:::
-
-  </div>
-</details>
-
-<details>
-  <summary>
     Render dates as absolute ISO timestamps with **`--absolute`**
   </summary>
   <div>
