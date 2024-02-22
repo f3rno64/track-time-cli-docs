@@ -8,89 +8,6 @@ toc_max_heading_level: 5
 
 # List Command
 
-The **`list`** command lists time sheet entries. It supports many arguments
-that can be used to filter results or modify the rendering of dates and
-durations.
-
-It takes one position argument, **`<...sheets>`**, which filters the
-time sheets shown in the output. If not provided, only the currently **active**
-sheet will be considered.
-
-## Usage
-
-The **`list`** command queries the database for time sheet entries with the
-specified filters, and displays the selected entries in a table **per-sheet**.
-
-Sheets are specified as a position argument, i.e. **`tt list coding sports
-reading`**. If none are specified, all sheets are used.
-
-The arguments **`--today`**, **`--yesterday`**, **`--since`**, and **`--all`**
-filter the results by date, while **`--filter`** filters by description.
-
-To hide the start and end dates, use the **`--concise`** flag.
-
-<details>
-  <summary>
-    Natural language input with **`--at`**
-  </summary>
-  <div>
-
-:::tip
-<br />
-**Natural language** input is supported by the **`--at`** argument.
-
-<br />
-
-For example,
-all of the following are valid:
-
-<br />
-
-- **`--at '3 days ago'`**
-- **`--at 'five months ago'`**
-- **`--at '1 hour and 32 minutes ago'`**
-- **`--at 'fourty eight hours ago'`**
-
-<br />
-
-The [**time-speak**][time-speak-url] library is used to parse the input.
-:::
-
-  </div>
-</details>
-
-## Examples
-
-Running **`tt l --since '4 hours ago' -c -h`** yields:
-![Output of `tt l --since '4 hours ago' -c -h`](/img/terminal_screenshots/tt_l_since_four_hours.svg)
-
-To display all data, provide the `--all` (disables **start** date filtering)
-and `--all-sheets` (includes all sheets in the output). The `-c` and `-h` flags
-were included in the call to `list` shown below:
-![Output of `tt l --all --all-sheets -c -h`](/img/terminal_screenshots/tt_l_all_all_sheets.svg)
-
-## Arguments
-
-| argument | alias | type | description | default |
-| ---- | --------- | ---- | ----------- | ------- |
-| **`--absolute`** | **`--abs`** | `boolean` | Print dates as absolute timestamps | **false** |
-| **`--humanize`** | **`-h`** | `boolean` | Renders durations in human-readable format | **false** |
-| **`--since`** | **`-s`** | `string` | Only lists entries since the specified date; **supports natural language input.** | |
-| **`--today`** | **`-t`** | `boolean` | Show results for today | **false** |
-| **`--all-sheets`** | | `boolean` | Show results for all sheets | **false** |
-| **`--all`** | **`-a`** | `boolean` | Show all sheet entries | **false** |
-| **`--yesterday`** | **`-y`** | `boolean` | Show results from yesterday | **false** |
-| **`--concise`** | **`-c`** | `boolean` | Exclude start and end dates from output, showing duration only | **false** |
-| **`--filter`** | **`-f`** | `string` | Filter results by description | |
-| **`--sheets`** | | `boolean` | Show results for the specified sheets | **false** |
-
-<br />
-<br />
-
-***
-
-<br />
-
 <details>
   <summary>
     View the output of **`tt list --help`**
@@ -120,5 +37,71 @@ were included in the call to `list` shown below:
 
   </div>
 </details>
+
+The **`list`** command lists time sheet entries. It supports many arguments
+that can be used to filter results or modify the rendering of dates and
+durations.
+
+It takes one position argument, **`<...sheets>`**, which filters the
+time sheets shown in the output. If not provided, only the currently **active**
+sheet will be considered.
+
+The arguments **`--today`**, **`--yesterday`**, **`--since`**, and **`--all`**
+filter the results by date, while **`--filter`** filters by description.
+
+To hide the start and end dates, use the **`--concise`** flag.
+
+## Arguments
+<details>
+  <summary>
+    Natural language input with **`--since`**
+  </summary>
+  <div>
+
+:::tip
+<br />
+**Natural language** input is supported by the **`--since`** argument.
+
+<br />
+
+For example,
+all of the following are valid:
+
+<br />
+
+- **`--since '12 hours ago'`**
+- **`--since '30 days ago'`**
+- **`--since 'one year ago'`**
+
+<br />
+
+The [**time-speak**][time-speak-url] library is used to parse the input.
+:::
+
+  </div>
+</details>
+
+| argument | alias | type | description | default |
+| ---- | --------- | ---- | ----------- | ------- |
+| **`--absolute`** | **`--abs`** | `boolean` | Print dates as absolute timestamps | **false** |
+| **`--humanize`** | **`-h`** | `boolean` | Renders durations in human-readable format | **false** |
+| **`--since`** | **`-s`** | `string` | Only lists entries since the specified date; **supports natural language input.** | |
+| **`--today`** | **`-t`** | `boolean` | Show results for today | **false** |
+| **`--all-sheets`** | | `boolean` | Show results for all sheets | **false** |
+| **`--all`** | **`-a`** | `boolean` | Show all sheet entries | **false** |
+| **`--yesterday`** | **`-y`** | `boolean` | Show results from yesterday | **false** |
+| **`--concise`** | **`-c`** | `boolean` | Exclude start and end dates from output, showing duration only | **false** |
+| **`--filter`** | **`-f`** | `string` | Filter results by description | |
+| **`--sheets`** | | `boolean` | Show results for the specified sheets | **false** |
+
+## Examples
+
+Running **`tt l --since '4 hours ago' -c -h`** yields:
+![Output of `tt l --since '4 hours ago' -c -h`](/img/terminal_screenshots/tt_l_since_four_hours.svg)
+
+To display all data, provide the `--all` (disables **start** date filtering)
+and `--all-sheets` (includes all sheets in the output). The `-c` and `-h` flags
+were included in the call to `list` shown below:
+![Output of `tt l --all --all-sheets -c -h`](/img/terminal_screenshots/tt_l_all_all_sheets.svg)
 
 [time-speak-url]: https://github.com/f3rno64/time-speak
