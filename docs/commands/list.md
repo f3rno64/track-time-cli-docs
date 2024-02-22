@@ -101,11 +101,7 @@ yields:
       -f, --filter           Filter results by description                  [string]
           --help             Show help                                     [boolean]
           --sheets           Show results for the specified sheets
-          [array] [choices: "track-time-cli", "cst", "misc", "time-speak", "gaming",
-                  "blog", "node-ts-lib-template", "track-time-cli-ui", "to-numbers",
-                    "study-crew", "mk-ui", "job-hunt", "global-gigs", "xf-bash-lib",
-      "vim-snippets", "dotfiles", "datsusara-blog", "http-server-md", "nvim-config",
-                "general-coding", "apartment-hunt", "elflog", "track-time-cli-docs"]
+          [array] [choices: "main"]
     ```
 
   </div>

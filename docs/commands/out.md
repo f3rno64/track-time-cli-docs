@@ -78,7 +78,7 @@ your historical activity accurate.
 ## Examples
 
 If no entry is active, an error is shown and the
-[**database**][database-post-url] is not modified:
+**database** is not modified:
 ![Output of `tt out` when no entry is active](/img/terminal_screenshots/tt_out_with_no_active_entry.svg)
 
 Otherwise, the entry is ended by setting the **`end`** field to the present
@@ -92,4 +92,3 @@ it supports natural language input. For example, this is the output of
 ![Output of `tt out --at '15 minutes ago'`](/img/terminal_screenshots/tt_out_with_past_end.svg)
 
 [time-speak-url]: https://github.com/f3rno64/time-speak
-[database-post-url]: /docs/category/basic-concepts/database
