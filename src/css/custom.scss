@@ -42,18 +42,22 @@ h1 {
   font-size: 2.5rem;
 }
 
-.markdown p img {
-  max-width: 75%;
-  margin: 16px auto 0 auto;
-  display: block;
-  margin-top: 16px !important;
-}
-
 .markdown p {
   font-size: 18px;
+
+  img {
+    max-width: 75%;
+    margin: 16px auto 0 auto;
+    display: block;
+    margin-top: 16px !important;
+  }
+
+  em img {
+    border: none;
+  }
 }
 
-.markdown hr {
+hr {
   border-top: 1px solid #999;
   margin: 0 auto;
 }
@@ -90,10 +94,6 @@ h5 {
 h6 {
   font-size: 10px;
   font-weight: 400;
-}
-
-.markdown p em img {
-  border: none;
 }
 
 .navbar__items--right .navbar__link {

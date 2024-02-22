@@ -23,6 +23,9 @@ dependencies:
   docusaurus-plugin-image-zoom:
     specifier: ^2.0.0
     version: 2.0.0(@docusaurus/theme-classic@3.1.1)
+  docusaurus-plugin-sass:
+    specifier: ^0.2.5
+    version: 0.2.5(@docusaurus/core@3.1.1)(sass@1.71.1)(webpack@5.90.3)
   docusaurus-tailwindcss:
     specifier: ^0.1.0
     version: 0.1.0(@docusaurus/core@3.1.1)
@@ -38,6 +41,9 @@ dependencies:
   remark-code-title:
     specifier: ^0.2.5
     version: 0.2.5
+  sass:
+    specifier: ^1.71.1
+    version: 1.71.1
 
 devDependencies:
   '@docusaurus/module-type-aliases':
@@ -4416,6 +4422,21 @@ packages:
       validate-peer-dependencies: 2.2.0
     dev: false
 
+  /docusaurus-plugin-sass@0.2.5(@docusaurus/core@3.1.1)(sass@1.71.1)(webpack@5.90.3):
+    resolution: {integrity: sha512-Z+D0fLFUKcFpM+bqSUmqKIU+vO+YF1xoEQh5hoFreg2eMf722+siwXDD+sqtwU8E4MvVpuvsQfaHwODNlxJAEg==}
+    peerDependencies:
+      '@docusaurus/core': ^2.0.0-beta || ^3.0.0-alpha
+      sass: ^1.30.0
+    dependencies:
+      '@docusaurus/core': 3.1.1(@docusaurus/types@3.1.1)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
+      sass: 1.71.1
+      sass-loader: 10.5.2(sass@1.71.1)(webpack@5.90.3)
+    transitivePeerDependencies:
+      - fibers
+      - node-sass
+      - webpack
+    dev: false
+
   /docusaurus-tailwindcss@0.1.0(@docusaurus/core@3.1.1):
     resolution: {integrity: sha512-Vz2bDMhRUwp4+iro+JlRM9kaOJ2Wjk3ZZYl1C9yydSx1iuTSgXS0beA1v/7cXyBV5VrIN5ZGwvRXev9IheWU7A==}
     engines: {node: '>=10'}
@@ -5547,6 +5568,10 @@ packages:
     resolution: {integrity: sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==}
     dev: false
 
+  /immutable@4.3.5:
+    resolution: {integrity: sha512-8eabxkth9gZatlwl5TBuJnCsoTADlL6ftEr7A4qgdaTsPyreilDSnUk57SO+jfKcNtxPa22U5KK6DSeAYhpBJw==}
+    dev: false
+
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -5931,6 +5956,11 @@ packages:
   /kleur@3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
+    dev: false
+
+  /klona@2.0.6:
+    resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
+    engines: {node: '>= 8'}
     dev: false
 
   /latest-version@7.0.0:
@@ -8266,6 +8296,41 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    dev: false
+
+  /sass-loader@10.5.2(sass@1.71.1)(webpack@5.90.3):
+    resolution: {integrity: sha512-vMUoSNOUKJILHpcNCCyD23X34gve1TS7Rjd9uXHeKqhvBG39x6XbswFDtpbTElj6XdMFezoWhkh5vtKudf2cgQ==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      fibers: '>= 3.1.0'
+      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      sass: ^1.3.0
+      webpack: ^4.36.0 || ^5.0.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
+    dependencies:
+      klona: 2.0.6
+      loader-utils: 2.0.4
+      neo-async: 2.6.2
+      sass: 1.71.1
+      schema-utils: 3.3.0
+      semver: 7.6.0
+      webpack: 5.90.3
+    dev: false
+
+  /sass@1.71.1:
+    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.6.0
+      immutable: 4.3.5
+      source-map-js: 1.0.2
     dev: false
 
   /sax@1.3.0:

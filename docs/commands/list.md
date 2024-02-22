@@ -24,9 +24,20 @@ specified filters, and displays the selected entries in a table **per-sheet**.
 Sheets are specified as a position argument, i.e. **`tt list coding sports
 reading`**. If none are specified, all sheets are used.
 
-:::tip natural language input with **`--since`**
+The arguments **`--today`**, **`--yesterday`**, **`--since`**, and **`--all`**
+filter the results by date, while **`--filter`** filters by description.
+
+To hide the start and end dates, use the **`--concise`** flag.
+
+<details>
+  <summary>
+    Natural language input with **`--at`**
+  </summary>
+  <div>
+
+:::tip
 <br />
-**Natural language** input is supported by the **`--since`** argument.
+**Natural language** input is supported by the **`--at`** argument.
 
 <br />
 
@@ -35,30 +46,32 @@ all of the following are valid:
 
 <br />
 
-- **`--since '3 days ago'`**
-- **`--since 'five months ago'`**
-- **`--since '1 hour and 32 minutes ago'`**
-- **`--since 'fourty eight hours ago'`**
+- **`--at '3 days ago'`**
+- **`--at 'five months ago'`**
+- **`--at '1 hour and 32 minutes ago'`**
+- **`--at 'fourty eight hours ago'`**
 
 <br />
 
 The [**time-speak**][time-speak-url] library is used to parse the input.
 :::
 
-The arguments **`--today`**, **`--yesterday`**, **`--since`**, and **`--all`**
-filter the results by date, while **`--filter`** filters by description.
+  </div>
+</details>
 
-To hide the start and end dates, use the **`--concise`** flag.
+## Examples
 
-## Examples 
-
-Running **`tt l --since '4 hours ago' -c -h`**
-yields:
+Running **`tt l --since '4 hours ago' -c -h`** yields:
 ![Output of `tt l --since '4 hours ago' -c -h`](/img/terminal_screenshots/tt_l_since_four_hours.svg)
+
+To display all data, provide the `--all` (disables **start** date filtering)
+and `--all-sheets` (includes all sheets in the output). The `-c` and `-h` flags
+were included in the call to `list` shown below:
+![Output of `tt l --all --all-sheets -c -h`](/img/terminal_screenshots/tt_l_all_all_sheets.svg)
 
 ## Arguments
 
-| argument | alias(es) | type | description | default |
+| argument | alias | type | description | default |
 | ---- | --------- | ---- | ----------- | ------- |
 | **`--absolute`** | **`--abs`** | `boolean` | Print dates as absolute timestamps | **false** |
 | **`--humanize`** | **`-h`** | `boolean` | Renders durations in human-readable format | **false** |
@@ -83,7 +96,8 @@ yields:
     View the output of **`tt list --help`**
   </summary>
   <div>
-    ```text
+
+    ```
     List all time sheet entries
 
     Options:
