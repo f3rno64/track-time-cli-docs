@@ -33,7 +33,8 @@ const config: Config = {
   },
 
   plugins: [
-    'docusaurus-tailwindcss'
+    'docusaurus-tailwindcss',
+    '@cmfcmf/docusaurus-search-local'
   ],
 
   presets: [
