@@ -80,7 +80,7 @@ The [**time-speak**][time-speak-url] library is used to parse the input.
 | argument | alias(es) | type | description | default |
 | ---- | --------- | ---- | ----------- | ------- |
 | **`--at`** | | `string` | Sets the start time of the created entry; **supports natural-language input.** | |
-| **`--description`** | | `string` | Sets the time entry description; this can also be provided via the position argument | |
+| **`--description`** | | `string` | Sets the entry description; the value may be provided as a **positional** argument | |
 
 ### Checking In Retroactively
 
@@ -108,12 +108,20 @@ starts a new entry with the **@feature** and **@frontend** tags:
 
 ## Examples
 
+Read on to see a few examples of **`in`** command usage.
+
+### Checking In With An Entry Already Active
+
 If an entry is **active**, an error is shown and no entry is created:
 ![Output of `tt in` with an entry already active](/img/terminal_screenshots/tt_in_with_active_entry.svg)
+
+### Checking In
 
 Otherwise, a new entry is created with the **start** date set to the present
 time, and it is set as the active entry by **name** in the time sheet:
 ![Output of `tt in` with no active entry](/img/terminal_screenshots/tt_in_with_no_active_entry.svg)
+
+### Custom Start Time
 
 You can also specify the start time via the **`--at`** argument. As noted
 above, it supports natural language input. For example, this is the output of

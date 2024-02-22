@@ -77,14 +77,22 @@ your historical activity accurate.
 
 ## Examples
 
+You can find a few examples of using the **`out`** command below.
+
+### Checking Out With No Entry Active
+
 If no entry is active, an error is shown and the
 **database** is not modified:
 ![Output of `tt out` when no entry is active](/img/terminal_screenshots/tt_out_with_no_active_entry.svg)
+
+### Checking Out
 
 Otherwise, the entry is ended by setting the **`end`** field to the present
 moment, and the **`activeEntryID`** field is cleared in the database. The final
 duration is shown in the output:
 ![Output of `tt out` when no entry is active](/img/terminal_screenshots/tt_out_with_active_entry.svg)
+
+### Custom End Time
 
 You can also specify the end time via the **`--at`** argument. As noted above,
 it supports natural language input. For example, this is the output of
