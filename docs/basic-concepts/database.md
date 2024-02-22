@@ -5,7 +5,9 @@ sidebar_position: 1
 ---
 
 :::info
-#### By default, the database is located at _`~/.track-time-cli/db.json`_
+
+#### By default, the database is located at **`~/.track-time-cli/db.json`**
+
 :::
 
 **track-time-cli** stores all activity in your **home** folder within a single
@@ -29,7 +31,9 @@ To pretty-print its contents, you may run
 **`cat ~/.track-time-cli/db.json | jq .`**
 :::
 
-> #### NOTE: _The database file is minified by default._
+:::note
+The database file is minified by default.
+:::
 
 <br />
 
@@ -77,7 +81,7 @@ The contents of this fresh database are the following:
 
 ### Migrations
 
-Sometimes when an update is released, the database schema may be updated,
+Sometimes when an update is released, the database schema may change,
 increasing the **version** number in the **`db.json`** file. When this happens,
 **`track-time-cli`** will automatically migrate the contents of the database to
 the new schema when any command is invoked, prior to command execution.

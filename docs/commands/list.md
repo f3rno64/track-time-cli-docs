@@ -52,9 +52,9 @@ To hide the start and end dates, use the **`--concise`** flag.
 
 ## Examples 
 
-Running **`tt l --since '3 days ago' -c -h reading coding`**
+Running **`tt l --since '4 hours ago' -c -h`**
 yields:
-![Output of `tt l --since '3 days ago' -c -h reading coding`](/img/terminal_screenshots/tt_now.svg)
+![Output of `tt l --since '4 hours ago' -c -h`](/img/terminal_screenshots/tt_l_since_four_hours.svg)
 
 ## Arguments
 

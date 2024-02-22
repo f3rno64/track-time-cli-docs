@@ -120,8 +120,8 @@ const config: Config = {
     },
 
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.synthwave84,
+      theme: prismThemes.oneLight,
+      darkTheme: prismThemes.oneDark,
     }
   } satisfies Preset.ThemeConfig
 }

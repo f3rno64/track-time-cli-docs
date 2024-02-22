@@ -93,9 +93,9 @@ For example, once completed, you will be able to filter by tag while using the
 Currently, this only works if you quote your description. For example, this
 starts a new entry with the **@feature** and **@frontend** tags:
 
-```sh
-tt in --at '30 minutes ago' "create modal component @feature @frontend"
-```
+    ```sh
+    tt in --at '30 minutes ago' "create modal component @feature @frontend"
+    ```
 
 ## Examples
 
