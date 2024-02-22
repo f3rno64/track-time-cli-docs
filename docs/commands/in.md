@@ -1,9 +1,18 @@
 ---
 id: in
 title: In
+hide_title: false
 sidebar_position: 1
 toc_min_heading_level: 2
 toc_max_heading_level: 5
+hide_table_of_contents: false
+tags:
+  - entry-management
+  - db-write
+keywords:
+  - docs
+  - time-sheet-entry
+  - time-tracking
 ---
 
 # In Command
