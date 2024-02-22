@@ -19,14 +19,14 @@
         font-weight: 700;
     }
 
-    .terminal-1240506775-matrix {
+    .terminal-2152440357-matrix {
         font-family: Fira Code, monospace;
         font-size: 20px;
         line-height: 24.4px;
         font-variant-east-asian: full-width;
     }
 
-    .terminal-1240506775-title {
+    .terminal-2152440357-title {
         font-size: 18px;
         font-weight: bold;
         font-family: arial;
@@ -36,30 +36,30 @@
         -webkit-filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
         filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
     }
-    .terminal-1240506775-r1 { fill: #fb4934;font-weight: bold }
-.terminal-1240506775-r2 { fill: #d5c4a1 }
-.terminal-1240506775-r3 { fill: #b8bb26;font-weight: bold }
-.terminal-1240506775-r4 { fill: #8ec07c }
+    .terminal-2152440357-r1 { fill: #f38ba8;font-weight: bold }
+.terminal-2152440357-r2 { fill: #c6ceef }
+.terminal-2152440357-r3 { fill: #a6e3a1;font-weight: bold }
+.terminal-2152440357-r4 { fill: #94e2d5 }
     </style>
 
     <defs>
-    <clipPath id="terminal-1240506775-clip-terminal">
+    <clipPath id="terminal-2152440357-clip-terminal">
       <rect x="0" y="0" width="487.0" height="23.4" />
     </clipPath>
     
     </defs>
 
-    <rect fill="#282828" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-1240506775-title" fill="#d5c4a1" text-anchor="middle" x="252" y="27">tt&#160;now</text>
+    <rect fill="#303446" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-2152440357-title" fill="#c6ceef" text-anchor="middle" x="252" y="27">tt</text>
             <g transform="translate(32,22)">
             <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
         
-    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-1240506775-clip-terminal)">
+    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-2152440357-clip-terminal)">
     
-    <g class="terminal-1240506775-matrix">
-    <text class="terminal-1240506775-r1" x="0" y="20" textLength="61" clip-path="url(#terminal-1240506775-line-0)">main:</text><text class="terminal-1240506775-r3" x="73.2" y="20" textLength="219.6" clip-path="url(#terminal-1240506775-line-0)">[running&#160;for&#160;0:20]</text><text class="terminal-1240506775-r4" x="305" y="20" textLength="48.8" clip-path="url(#terminal-1240506775-line-0)">test</text><text class="terminal-1240506775-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-1240506775-line-0)">
+    <g class="terminal-2152440357-matrix">
+    <text class="terminal-2152440357-r1" x="0" y="20" textLength="61" clip-path="url(#terminal-2152440357-line-0)">main:</text><text class="terminal-2152440357-r3" x="73.2" y="20" textLength="231.8" clip-path="url(#terminal-2152440357-line-0)">[running&#160;for&#160;32:26]</text><text class="terminal-2152440357-r4" x="317.2" y="20" textLength="109.8" clip-path="url(#terminal-2152440357-line-0)">some&#160;task</text><text class="terminal-2152440357-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-2152440357-line-0)">
 </text>
     </g>
     </g>

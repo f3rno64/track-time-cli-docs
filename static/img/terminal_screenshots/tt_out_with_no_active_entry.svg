@@ -19,14 +19,14 @@
         font-weight: 700;
     }
 
-    .terminal-4284435234-matrix {
+    .terminal-1882606152-matrix {
         font-family: Fira Code, monospace;
         font-size: 20px;
         line-height: 24.4px;
         font-variant-east-asian: full-width;
     }
 
-    .terminal-4284435234-title {
+    .terminal-1882606152-title {
         font-size: 18px;
         font-weight: bold;
         font-family: arial;
@@ -36,28 +36,28 @@
         -webkit-filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
         filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
     }
-    .terminal-4284435234-r1 { fill: #8ec07c;font-weight: bold }
-.terminal-4284435234-r2 { fill: #d5c4a1 }
+    .terminal-1882606152-r1 { fill: #94e2d5;font-weight: bold }
+.terminal-1882606152-r2 { fill: #c6ceef }
     </style>
 
     <defs>
-    <clipPath id="terminal-4284435234-clip-terminal">
+    <clipPath id="terminal-1882606152-clip-terminal">
       <rect x="0" y="0" width="487.0" height="23.4" />
     </clipPath>
     
     </defs>
 
-    <rect fill="#282828" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-4284435234-title" fill="#d5c4a1" text-anchor="middle" x="252" y="27">tt&#160;now</text>
+    <rect fill="#303446" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-1882606152-title" fill="#c6ceef" text-anchor="middle" x="252" y="27">tt&#160;o</text>
             <g transform="translate(32,22)">
             <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
         
-    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-4284435234-clip-terminal)">
+    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-1882606152-clip-terminal)">
     
-    <g class="terminal-4284435234-matrix">
-    <text class="terminal-4284435234-r1" x="0" y="20" textLength="73.2" clip-path="url(#terminal-4284435234-line-0)">Error:</text><text class="terminal-4284435234-r2" x="73.2" y="20" textLength="378.2" clip-path="url(#terminal-4284435234-line-0)">&#160;Sheet&#160;main&#160;has&#160;no&#160;active&#160;entry</text><text class="terminal-4284435234-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-4284435234-line-0)">
+    <g class="terminal-1882606152-matrix">
+    <text class="terminal-1882606152-r1" x="0" y="20" textLength="73.2" clip-path="url(#terminal-1882606152-line-0)">Error:</text><text class="terminal-1882606152-r2" x="73.2" y="20" textLength="378.2" clip-path="url(#terminal-1882606152-line-0)">&#160;No&#160;active&#160;entry&#160;for&#160;sheet&#160;main</text><text class="terminal-1882606152-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-1882606152-line-0)">
 </text>
     </g>
     </g>

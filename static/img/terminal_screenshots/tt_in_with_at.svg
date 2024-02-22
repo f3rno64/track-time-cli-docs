@@ -19,14 +19,14 @@
         font-weight: 700;
     }
 
-    .terminal-4026318956-matrix {
+    .terminal-4026384492-matrix {
         font-family: Fira Code, monospace;
         font-size: 20px;
         line-height: 24.4px;
         font-variant-east-asian: full-width;
     }
 
-    .terminal-4026318956-title {
+    .terminal-4026384492-title {
         font-size: 18px;
         font-weight: bold;
         font-family: arial;
@@ -36,30 +36,30 @@
         -webkit-filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
         filter: drop-shadow( 2px 5px 2px rgba(0, 0, 0, .7));
     }
-    .terminal-4026318956-r1 { fill: #8ec07c }
-.terminal-4026318956-r2 { fill: #d5c4a1 }
-.terminal-4026318956-r3 { fill: #8ec07c;font-weight: bold }
-.terminal-4026318956-r4 { fill: #fb4934 }
+    .terminal-4026384492-r1 { fill: #94e2d5 }
+.terminal-4026384492-r2 { fill: #c6ceef }
+.terminal-4026384492-r3 { fill: #94e2d5;font-weight: bold }
+.terminal-4026384492-r4 { fill: #f38ba8 }
     </style>
 
     <defs>
-    <clipPath id="terminal-4026318956-clip-terminal">
+    <clipPath id="terminal-4026384492-clip-terminal">
       <rect x="0" y="0" width="487.0" height="23.4" />
     </clipPath>
     
     </defs>
 
-    <rect fill="#282828" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-4026318956-title" fill="#d5c4a1" text-anchor="middle" x="252" y="27">tt&#160;in&#160;--at&#160;&#x27;15&#160;minutes&#160;ago&#x27;&#160;some&#160;task&#160;description</text>
+    <rect fill="#303446" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="10.1667" y="1" width="504" height="72.4" rx="8"/><text class="terminal-4026384492-title" fill="#c6ceef" text-anchor="middle" x="252" y="27">tt&#160;in&#160;--at&#160;&#x27;15&#160;minutes&#160;ago&#x27;&#160;some&#160;task&#160;description</text>
             <g transform="translate(32,22)">
             <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
         
-    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-4026318956-clip-terminal)">
+    <g transform="translate(18.166666666666664, 41) scale(.95)" clip-path="url(#terminal-4026384492-clip-terminal)">
     
-    <g class="terminal-4026318956-matrix">
-    <text class="terminal-4026318956-r1" x="0" y="20" textLength="122" clip-path="url(#terminal-4026318956-line-0)">Checked&#160;in</text><text class="terminal-4026318956-r2" x="122" y="20" textLength="24.4" clip-path="url(#terminal-4026318956-line-0)">:&#160;</text><text class="terminal-4026318956-r3" x="146.4" y="20" textLength="256.2" clip-path="url(#terminal-4026318956-line-0)">some&#160;task&#160;description</text><text class="terminal-4026318956-r2" x="402.6" y="20" textLength="24.4" clip-path="url(#terminal-4026318956-line-0)">&#160;[</text><text class="terminal-4026318956-r4" x="427" y="20" textLength="24.4" clip-path="url(#terminal-4026318956-line-0)">18</text><text class="terminal-4026318956-r2" x="451.4" y="20" textLength="12.2" clip-path="url(#terminal-4026318956-line-0)">]</text><text class="terminal-4026318956-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-4026318956-line-0)">
+    <g class="terminal-4026384492-matrix">
+    <text class="terminal-4026384492-r1" x="0" y="20" textLength="122" clip-path="url(#terminal-4026384492-line-0)">Checked&#160;in</text><text class="terminal-4026384492-r2" x="122" y="20" textLength="24.4" clip-path="url(#terminal-4026384492-line-0)">:&#160;</text><text class="terminal-4026384492-r3" x="146.4" y="20" textLength="256.2" clip-path="url(#terminal-4026384492-line-0)">some&#160;task&#160;description</text><text class="terminal-4026384492-r2" x="402.6" y="20" textLength="24.4" clip-path="url(#terminal-4026384492-line-0)">&#160;[</text><text class="terminal-4026384492-r4" x="427" y="20" textLength="24.4" clip-path="url(#terminal-4026384492-line-0)">27</text><text class="terminal-4026384492-r2" x="451.4" y="20" textLength="12.2" clip-path="url(#terminal-4026384492-line-0)">]</text><text class="terminal-4026384492-r2" x="488" y="20" textLength="12.2" clip-path="url(#terminal-4026384492-line-0)">
 </text>
     </g>
     </g>

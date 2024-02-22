@@ -76,10 +76,10 @@ The [**time-speak**][time-speak-url] library is used to parse the input.
 ### Checking In Retroactively
 
 Using the **`--at`** argument, it is possible to check into a time sheet after
-you have started working but with a start time in the past. For example, if you
-have a meeting and want to track it but forget to `tt in` when it starts, you
-can run **`tt in --at '15 minutes ago' in a meeting on some topic`** if it's
-been ongoing for 15 minutes.
+you have started working. For example, if you have a meeting and want to track
+it but forget to `tt in` when it starts, you can run
+**`tt in --at '15 minutes ago' in a meeting on some topic`** if it's been
+ongoing for 15 minutes.
 
 ### Tags
 
@@ -109,6 +109,6 @@ time, and it is set as the active entry by **name** in the time sheet:
 You can also specify the start time via the **`--at`** argument. As noted
 above, it supports natural language input. For example, this is the output of
 **`tt`** after running **`tt in --at '15 minutes ago' some task description`**:
-![Output of `tt` after checking in with a past start date](/img/terminal_screenshots/tt_now_after_in.svg)
+![Output of `tt` after checking in with a past start date](/img/terminal_screenshots/tt_in_with_at.svg)
 
 [time-speak-url]: https://github.com/f3rno64/time-speak
