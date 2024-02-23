@@ -20,7 +20,9 @@ export default function Home(): JSX.Element {
                 {title}
               </Heading>
 
-              <p className="text-xl font-semibold pb-16 text-center">{tagline}</p>
+              <p className="text-xl font-semibold pb-16 text-center">
+                {tagline}
+              </p>
 
               <div className="flex align-center justify-center">
                 <Link
